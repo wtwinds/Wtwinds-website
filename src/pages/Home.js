@@ -35,7 +35,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-                        <div className="card shadow-sm mb-4">
+            <div className="card shadow-sm mb-4">
               <div className="card-body">
                 <h4 className="fw-bold">HR Apraisal</h4>
                 <a
@@ -187,10 +187,10 @@ export default function Home() {
             </div>
             <div className="card shadow-sm mb-4">
               <div className="card-body">
-                <h4 className="fw-bold">Warehouse</h4>
+                <h4 className="fw-bold">Fitness Mall</h4>
 
                 <a
-                  href="https://warehouse-xyau.onrender.com/"
+                  href="https://fitness-mall-4h2n.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
