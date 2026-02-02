@@ -9,9 +9,7 @@ export default function Products() {
           {/* ===== WTWinds App (TOP PRODUCT) ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
-              <h4 className="card-title fw-bold">
-                WTWinds App
-              </h4>
+              <h4 className="card-title fw-bold">WTWinds App</h4>
 
               <p className="card-text mt-2">
                 A modern web application with a
@@ -50,6 +48,8 @@ export default function Products() {
               </p>
             </div>
           </div>
+
+          {/* ===== HR Performance Appraisal ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -75,12 +75,10 @@ export default function Products() {
                 suitable for real-world HR operations.
               </p>
 
-              <a
-                href="#"
-                className="btn btn-primary"
-              >
+              {/* 🔴 FIXED: was href="#" */}
+              <button className="btn btn-primary" disabled>
                 View Project
-              </a>
+              </button>
 
               <hr />
 
@@ -91,7 +89,7 @@ export default function Products() {
             </div>
           </div>
 
-          {/* ===== Tambola Product ===== */}
+          {/* ===== Tambola ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -133,7 +131,7 @@ export default function Products() {
             </div>
           </div>
 
-          {/* ===== Tic-Tac-Toe Product ===== */}
+          {/* ===== Tic Tac Toe ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -175,7 +173,7 @@ export default function Products() {
             </div>
           </div>
 
-          {/* ===== Banking App Product ===== */}
+          {/* ===== Banking App ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -216,91 +214,7 @@ export default function Products() {
             </div>
           </div>
 
-          {/* ===== Flight Search Product (LAST) ===== */}
-          <div className="card shadow-sm mb-4">
-            <div className="card-body">
-              <h4 className="card-title fw-bold">
-                Flight Search Web Application
-              </h4>
-
-              <p className="card-text mt-2">
-                A modern flight search web app built using
-                <strong> React</strong> with a clean glassmorphism UI.
-              </p>
-
-              <ul className="mb-3">
-                <li>Search by flight number or route</li>
-                <li>Multiple results with auto-fade transitions</li>
-                <li>Pause-on-hover result cards</li>
-                <li>Responsive & user-friendly design</li>
-              </ul>
-
-              <p className="card-text">
-                Deployed as a static site on <strong>Render</strong>.
-              </p>
-
-              <a
-                href="https://flight-search-wt.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                View Live Product
-              </a>
-
-              <hr />
-
-              <p className="text-muted mb-0">
-                Developed by <strong>Aryan Hiremath & Isba Patel</strong><br />
-                Managed by <strong>Abhishek Gupta & Hetavi Shah & Mansi Patil</strong>
-              </p>
-            </div>
-          </div>
-          <div className="card shadow-sm mb-4">
-            <div className="card-body">
-              <h4 className="card-title fw-bold">
-                Real-Time Weather Forecast Application
-              </h4>
-
-              <p className="card-text mt-2">
-                A modern weather application built using
-                <strong> Flutter</strong> with
-                <strong> BLoC state management</strong> and
-                <strong> OpenWeather API</strong>.
-              </p>
-
-              <ul className="mb-3">
-                <li>Real-time weather updates</li>
-                <li>Search weather by city name</li>
-                <li>Temperature, humidity & wind details</li>
-                <li>Clean UI with responsive design</li>
-                <li>Error handling for invalid locations</li>
-              </ul>
-
-              <p className="card-text">
-                Uses <strong>REST APIs</strong> and follows
-                <strong> clean architecture principles</strong>.
-              </p>
-
-              <a
-                href="https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view?usp=drive_link"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary "
-              >
-                View Live Product
-              </a>
-
-              <hr />
-
-              <p className="text-muted mb-0">
-                Developed by <strong>Isba Patel</strong><br />
-                Managed by <strong>Gunjan Deore & Devyani Mali & Hetavi Shah</strong>
-              </p>
-            </div>
-          </div>
-
-          {/* ===== InShot Product ===== */}
+          {/* ===== InShot ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -310,20 +224,7 @@ export default function Products() {
               <p className="card-text mt-2">
                 A modern news aggregation web application built using
                 <strong> React</strong> and
-                <strong> REST APIs</strong>, providing users with
-                real-time news updates in a clean and responsive interface.
-              </p>
-
-              <ul className="mb-3">
-                <li>Real-time news fetching from APIs</li>
-                <li>Category-based news filtering</li>
-                <li>Responsive and user-friendly UI</li>
-                <li>Fast loading and optimized performance</li>
-              </ul>
-
-              <p className="card-text">
-                Designed to deliver a smooth reading experience with
-                a focus on simplicity and usability.
+                <strong> REST APIs</strong>.
               </p>
 
               <a
@@ -344,7 +245,7 @@ export default function Products() {
             </div>
           </div>
 
-          {/* ===== Fitness Mall Product ===== */}
+          {/* ===== Fitness Mall ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -354,19 +255,7 @@ export default function Products() {
               <p className="card-text mt-2">
                 A full-stack e-commerce web application focused on
                 <strong> fitness products</strong>, built using
-                <strong> React</strong> with a clean and scalable UI.
-              </p>
-
-              <ul className="mb-3">
-                <li>Browse and explore fitness products</li>
-                <li>Product details with pricing information</li>
-                <li>Responsive layout for all devices</li>
-                <li>User-friendly shopping experience</li>
-              </ul>
-
-              <p className="card-text">
-                Designed with performance and usability in mind,
-                suitable for real-world online shopping platforms.
+                <strong> React</strong>.
               </p>
 
               <a
