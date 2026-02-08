@@ -1,6 +1,6 @@
 function PrivacyPolicy() {
   return (
-    <div style={{ padding: "40px", maxWidth: "900px", margin: "auto" }}>
+    <div className="container mt-5 mb-5" style={{ maxWidth: "900px" }}>
       <h1>Privacy Policy</h1>
       <p><b>Last updated:</b> January 2026</p>
 

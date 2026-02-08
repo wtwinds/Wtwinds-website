@@ -1,47 +1,55 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div className="container">
-        <Link className="navbar-brand d-flex align-items-center text-white" to="/">
-          <span className="fw-bold fs-5">WT Winds</span>
-        </Link>
+        <NavLink className="navbar-brand fw-bold fs-5" to="/">
+          WT Winds
+        </NavLink>
 
         <ul className="navbar-nav ms-auto">
+
           <li className="nav-item">
-            <Link className="nav-link link-light" to="/about">
-              <i className="bi bi-building"></i> About
-            </Link>
+            <NavLink className="nav-link" to="/about">
+              <i className="bi bi-building me-1"></i>
+              About
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link link-light" to="/contact">
-              <i className="bi bi-envelope"></i> Contact
-            </Link>
+            <NavLink className="nav-link" to="/contact">
+              <i className="bi bi-envelope me-1"></i>
+              Contact
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link link-light" to="/privacy-policy">
+            <NavLink className="nav-link" to="/privacy-policy">
+              <i className="bi bi-shield-lock me-1"></i>
               Privacy Policy
-            </Link>
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link link-light" to="/refund-policy">
+            <NavLink className="nav-link" to="/refund-policy">
+              <i className="bi bi-arrow-counterclockwise me-1"></i>
               Refund Policy
-            </Link>
+            </NavLink>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link link-light" to="/products">
-              <i className="bi bi-box-seam"></i> Our Products
-            </Link>
+            <NavLink className="nav-link" to="/products">
+              <i className="bi bi-box-seam me-1"></i>
+              Our Products
+            </NavLink>
           </li>
 
-          <li>
-            <Link to="/team" className="nav-link">Our Team</Link>
-
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/team">
+              <i className="bi bi-people me-1"></i>
+              Our Team
+            </NavLink>
           </li>
 
         </ul>

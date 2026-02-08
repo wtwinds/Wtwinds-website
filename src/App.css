@@ -1,4 +1,12 @@
-.App {
+/* Only for 5 equal product columns */
+@media (min-width: 992px) {
+  .custom-col {
+    width: 20%;
+  }
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -42,7 +50,7 @@
    Our Team Page Styles
    =============================== */
 
-.page-container {
+/* .page-container {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
@@ -83,14 +91,14 @@
 
 .team-table a:hover {
   text-decoration: underline;
-}
+} */
 
 
 /* ===============================
    Navbar White Text Fix
    =============================== */
 
-.nav-link {
+/* .nav-link {
   color: #ffffff !important;
   text-decoration: none;
 }
@@ -105,4 +113,4 @@
 
 .nav-link.active {
   color: #ffffff !important;
-}
+} */
