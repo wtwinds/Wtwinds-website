@@ -16,12 +16,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/refund-policy" element={<RefundPolicy />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/team" element={<Team />} />   {/* ✅ Our Team */}
+        <Route path="/team" element={<Team />} />
       </Routes>
     </BrowserRouter>
   );
