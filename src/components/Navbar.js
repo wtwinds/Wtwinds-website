@@ -9,32 +9,10 @@ export default function Navbar() {
         </NavLink>
 
         <ul className="navbar-nav ms-auto">
-
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/about">
-              <i className="bi bi-building me-1"></i>
-              About
-            </NavLink>
-          </li>
-
           <li className="nav-item">
             <NavLink className="nav-link" to="/contact">
               <i className="bi bi-envelope me-1"></i>
               Contact
-            </NavLink>
-          </li>
-
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/privacy-policy">
-              <i className="bi bi-shield-lock me-1"></i>
-              Privacy Policy
-            </NavLink>
-          </li>
-
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/refund-policy">
-              <i className="bi bi-arrow-counterclockwise me-1"></i>
-              Refund Policy
             </NavLink>
           </li>
 
@@ -57,3 +35,25 @@ export default function Navbar() {
     </nav>
   );
 }
+
+
+// <li className="nav-item">
+//             <NavLink className="nav-link" to="/about">
+//               <i className="bi bi-building me-1"></i>
+//               About
+//             </NavLink>
+//           </li>
+
+//           <li className="nav-item">
+//             <NavLink className="nav-link" to="/privacy-policy">
+//               <i className="bi bi-shield-lock me-1"></i>
+//               Privacy Policy
+//             </NavLink>
+//           </li>
+
+//           <li className="nav-item">
+//             <NavLink className="nav-link" to="/refund-policy">
+//               <i className="bi bi-arrow-counterclockwise me-1"></i>
+//               Refund Policy
+//             </NavLink>
+//            </li> 
