@@ -1,7 +1,7 @@
 export default function Products() {
   const products = [
-    { name: "SmartPay Bank", icon: "bi-bank", color: "text-primary", link: "https://bank-stock-app.onrender.com/" },
-    { name: "Stock", icon: "bi-graph-up-arrow", color: "text-success", link: "https://bank-stock-app.onrender.com/" },
+    { name: "SmartPay Bank", icon: "bi-bank", color: "text-primary", link: "https://bank-stock-web.onrender.com/" },
+    { name: "Stock", icon: "bi-graph-up-arrow", color: "text-success", link: "https://bank-stock-web.onrender.com/" },
     { name: "Tambola", icon: "bi-123", color: "text-danger", link: "https://tambola-wtwinds.onrender.com/" },
     { name: "HR Appraisal", icon: "bi-clipboard-check", color: "text-warning", link: "https://hr-appraisal-gc7z.onrender.com" },
     { name: "Weather", icon: "bi-cloud-sun", color: "text-info", link: "https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view" },
