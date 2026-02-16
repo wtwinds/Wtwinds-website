@@ -4,12 +4,11 @@ export default function Products() {
     { name: "Stock", icon: "bi-graph-up-arrow", color: "text-success", link: "https://bank-stock-web.onrender.com/" },
     { name: "Tambola", icon: "bi-123", color: "text-danger", link: "https://tambola-wtwinds.onrender.com/" },
     { name: "HR Appraisal", icon: "bi-clipboard-check", color: "text-warning", link: "https://hr-appraisal-gc7z.onrender.com" },
-    { name: "Weather", icon: "bi-cloud-sun", color: "text-info", link: "https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view" },
     { name: "WT Winds", icon: "bi-wind", color: "text-secondary", link: "/" },
     { name: "Tic Tac Toe", icon: "bi-grid-3x3", color: "text-dark", link: "https://tictactoe-bw7q.onrender.com" },
     { name: "InShot", icon: "bi-newspaper", color: "text-primary", link: "https://inshots.onrender.com" },
-    { name: "Flight Analytic", icon: "bi-airplane", color: "text-success", link: "https://flight-search-wt.onrender.com" },
     { name: "Fitness Mall", icon: "bi-bag-check", color: "text-danger", link: "https://fitness-mall-4h2n.onrender.com" },
+     { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-4ef9.onrender.com" },
   ];
 
   return (
