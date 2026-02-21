@@ -7,7 +7,8 @@ export default function Products() {
     { name: "Tic Tac Toe", icon: "bi-grid-3x3", color: "text-dark", link: "https://tictactoe-bw7q.onrender.com" },
     { name: "InShot", icon: "bi-newspaper", color: "text-primary", link: "https://inshots.onrender.com" },
     { name: "Fitness Mall", icon: "bi-bag-check", color: "text-danger", link: "https://fitness-mall-4h2n.onrender.com" },
-     { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-7cio.onrender.com" },
+    { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-7cio.onrender.com" },
+    { name: "Bonds", icon: "bi-cash-coin", color: "text-success", link: "https://bonds-skc0.onrender.com" },
   ];
 
   return (
