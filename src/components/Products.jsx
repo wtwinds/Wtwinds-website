@@ -9,6 +9,7 @@ export default function Products() {
     { name: "Fitness Mall", icon: "bi-bag-check", color: "text-danger", link: "https://fitness-mall-4h2n.onrender.com" },
     { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-7cio.onrender.com" },
     { name: "Bonds", icon: "bi-cash-coin", color: "text-success", link: "https://bonds-skc0.onrender.com" },
+    { name: "LinkedIn AI", icon: "bi-linkedin", color: "text-primary", link: "https://linkedin-ai94.onrender.com" },
   ];
 
   return (
