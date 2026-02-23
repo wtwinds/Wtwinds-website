@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import Products from "./components/Products";
-import Team from "./components/Team";   // ✅ Our Team
+import Team from "./components/Team";   
 import JoinTeam from './components/JoinTeam';
 import TechRoles from './components/TechRoles';
 import NonTechRoles from './components/NonTechRoles';
