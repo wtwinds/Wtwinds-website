@@ -9,6 +9,9 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
 import Products from "./components/Products";
 import Team from "./components/Team";   // ✅ Our Team
+import JoinTeam from './components/JoinTeam';
+import TechRoles from './components/TechRoles';
+import NonTechRoles from './components/NonTechRoles';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
         <Route path="/team" element={<Team />} />
+        <Route path="join-team" element={<JoinTeam />} />
+        <Route path="tech" element={<TechRoles />} />
+        <Route path="non-tech" element={<NonTechRoles />} />
       </Routes>
     </BrowserRouter>
   );

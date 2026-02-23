@@ -30,6 +30,12 @@ export default function Navbar() {
             </NavLink>
           </li>
 
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/join-team">
+              <i className="bi bi-person-plus me-1"></i> Join Team
+            </NavLink>
+          </li>
+
         </ul>
       </div>
     </nav>
@@ -37,23 +43,3 @@ export default function Navbar() {
 }
 
 
-// <li className="nav-item">
-//             <NavLink className="nav-link" to="/about">
-//               <i className="bi bi-building me-1"></i>
-//               About
-//             </NavLink>
-//           </li>
-
-//           <li className="nav-item">
-//             <NavLink className="nav-link" to="/privacy-policy">
-//               <i className="bi bi-shield-lock me-1"></i>
-//               Privacy Policy
-//             </NavLink>
-//           </li>
-
-//           <li className="nav-item">
-//             <NavLink className="nav-link" to="/refund-policy">
-//               <i className="bi bi-arrow-counterclockwise me-1"></i>
-//               Refund Policy
-//             </NavLink>
-//            </li> 
