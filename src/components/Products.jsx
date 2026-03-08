@@ -10,7 +10,7 @@ export default function Products() {
     { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-7cio.onrender.com" },
     { name: "Bonds", icon: "bi-cash-coin", color: "text-success", link: "https://bonds-skc0.onrender.com" },
     { name: "LinkedIn AI", icon: "bi-linkedin", color: "text-primary", link: "https://linkedin-ai94.onrender.com" },
-     { name: "Helmet Rental", icon: "bi-bicycle", color: "text-secondary", link: "https://helmet-rental.onrender.com" },
+     { name: "Helmet Rental", icon: "bi-shield-check", color: "text-secondary", link: "https://helmet-rental.onrender.com" },
   ];
 
   return (
