@@ -11,7 +11,7 @@ export default function Products() {
     { name: "Bonds", icon: "bi-cash-coin", color: "text-success", link: "https://bonds-skc0.onrender.com" },
     { name: "LinkedIn AI", icon: "bi-linkedin", color: "text-primary", link: "https://linkedin-ai94.onrender.com" },
      { name: "Helmet Rental", icon: "bi-shield-check", color: "text-secondary", link: "https://helmet-rental.onrender.com" },
-    { name: "Cab Booking", icon: "bi-car-front", color: "text-info", link: "https://cab-booking-ecor.onrender.com/" },
+    { name: "Cab Booking", icon: "bi-car-front", color: "text-info", link: "https://cab-booking-ysf4.onrender.com" },
   ];
 
   return (
