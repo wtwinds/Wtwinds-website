@@ -1,16 +1,16 @@
 export default function Products() {
   const products = [
-    { name: "SmartPay Bank", icon: "bi-bank", color: "text-primary", link: "https://bank-stock-web.onrender.com/" },
-    { name: "Stock", icon: "bi-graph-up-arrow", color: "text-success", link: "https://bank-stock-web.onrender.com/" },
+    { name: "SmartPay Bank", icon: "bi-bank", color: "text-primary", link: "https://bank-stock-web-oi2b.onrender.com" },
+    { name: "Stock", icon: "bi-graph-up-arrow", color: "text-success", link: "https://bank-stock-web-oi2b.onrender.com" },
     { name: "Tambola", icon: "bi-123", color: "text-danger", link: "https://tambola-wtwinds.onrender.com/" },
     { name: "HR Appraisal", icon: "bi-clipboard-check", color: "text-warning", link: "https://hr-appraisal-x7b9.onrender.com" },
-    { name: "Tic Tac Toe", icon: "bi-grid-3x3", color: "text-dark", link: "https://tictactoe-bw7q.onrender.com" },
-    { name: "InShot", icon: "bi-newspaper", color: "text-primary", link: "https://inshots.onrender.com" },
-    { name: "Fitness Mall", icon: "bi-bag-check", color: "text-danger", link: "https://fitness-mall-4h2n.onrender.com" },
-    { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-7cio.onrender.com" },
-    { name: "Bonds", icon: "bi-cash-coin", color: "text-success", link: "https://bonds-skc0.onrender.com" },
-    { name: "LinkedIn AI", icon: "bi-linkedin", color: "text-primary", link: "https://linkedin-ai94.onrender.com" },
-     { name: "Helmet Rental", icon: "bi-shield-check", color: "text-secondary", link: "https://helmet-rental.onrender.com" },
+    { name: "Tic Tac Toe", icon: "bi-grid-3x3", color: "text-dark", link: "https://tictactoe-xzti.onrender.com" },
+    { name: "InShot", icon: "bi-newspaper", color: "text-primary", link: "https://inshot-a20b.onrender.com" },
+    { name: "Fitness Mall", icon: "bi-bag-check", color: "text-danger", link: "https://fitness-mall-as13.onrender.com" },
+    { name: "Ecommerce", icon: "bi-cart", color: "text-warning", link: "https://ecommerce-99e7.onrender.com" },
+    { name: "Bonds", icon: "bi-cash-coin", color: "text-success", link: "https://bonds-nyby.onrender.com" },
+    { name: "LinkedIn AI", icon: "bi-linkedin", color: "text-primary", link: "https://linkedin-3pze.onrender.com" },
+     { name: "Helmet Rental", icon: "bi-shield-check", color: "text-secondary", link: "https://helmet-rental-ie6c.onrender.com" },
     { name: "Cab Booking", icon: "bi-car-front", color: "text-info", link: "https://cab-booking-ysf4.onrender.com" },
   ];
 
