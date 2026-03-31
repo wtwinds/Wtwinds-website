@@ -12,6 +12,7 @@ export default function Products() {
     { name: "LinkedIn AI", icon: "bi-linkedin", color: "text-primary", link: "https://linkedin-3pze.onrender.com" },
      { name: "Helmet Rental", icon: "bi-shield-check", color: "text-secondary", link: "https://helmet-rental-ie6c.onrender.com" },
     { name: "Cab Booking", icon: "bi-car-front", color: "text-info", link: "https://cab-booking-ysf4.onrender.com" },
+    { name: "InternTrack", icon: "bi-kanban", color: "text-primary", link: "https://interntrack-gmjm.onrender.com" },
   ];
 
   return (
