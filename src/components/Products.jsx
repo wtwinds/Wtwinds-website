@@ -13,6 +13,7 @@ export default function Products() {
      { name: "Helmet Rental", icon: "bi-shield-check", color: "text-secondary", link: "https://helmet-rental-ie6c.onrender.com" },
     { name: "Cab Booking", icon: "bi-car-front", color: "text-info", link: "https://cab-booking-ysf4.onrender.com" },
     { name: "InternTrack", icon: "bi-kanban", color: "text-primary", link: "https://interntrack-gmjm.onrender.com" },
+    { name: "Fly Track", icon: "bi-airplane", color: "text-info", link: "https://fly-track.onrender.com" },
   ];
 
   return (
