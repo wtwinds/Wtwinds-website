@@ -3,7 +3,7 @@ export default function Products() {
     { name: "SmartPay Bank", icon: "bi-bank", color: "text-primary", link: "https://bank-stock-web-oi2b.onrender.com" },
     { name: "Stock", icon: "bi-graph-up-arrow", color: "text-success", link: "https://bank-stock-web-oi2b.onrender.com" },
     { name: "Tambola", icon: "bi-123", color: "text-danger", link: "https://tambola-wtwinds.onrender.com/" },
-    { name: "HR Appraisal", icon: "bi-clipboard-check", color: "text-warning", link: "https://hr-appraisal-x7b9.onrender.com" },
+    { name: "HR Appraisal", icon: "bi-clipboard-check", color: "text-warning", link: "https://hr-appraisal-o1ig.onrender.com" },
     { name: "Tic Tac Toe", icon: "bi-grid-3x3", color: "text-dark", link: "https://tictactoe-xzti.onrender.com" },
     { name: "InShot", icon: "bi-newspaper", color: "text-primary", link: "https://inshot-a20b.onrender.com" },
     { name: "Fitness Mall", icon: "bi-bag-check", color: "text-danger", link: "https://fitness-mall-as13.onrender.com" },
