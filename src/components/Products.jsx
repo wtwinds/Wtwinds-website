@@ -14,7 +14,7 @@ export default function Products() {
     { name: "Cab Booking", icon: "bi-car-front", color: "text-info", link: "https://cab-booking-ysf4.onrender.com" },
     { name: "InternTrack", icon: "bi-kanban", color: "text-primary", link: "https://interntrack-gmjm.onrender.com" },
     { name: "Fly Track", icon: "bi-airplane", color: "text-info", link: "https://fly-track.onrender.com" },
-     { name: "HealTrack", icon: "bi-heart-pulse", color: "text-danger", link: "https://healtrack-1bwb.onrender.com" },
+     { name: "HealTrack", icon: "bi-heart-pulse", color: "text-danger", link: "https://healtrack-qq44.onrender.com" },
   ];
 
   return (
