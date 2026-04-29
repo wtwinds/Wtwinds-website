@@ -31,8 +31,11 @@ export default function Contact() {
                 </h5>
                 <p className="mb-0">
                     <strong>WT Winds Consultancy OPC Pvt. Ltd.</strong><br />
-                    Sector 22A, Udyog Vihar,<br />
-                    Gurgaon, Haryana – 122015
+                    Udyog Vihar
+Gurgaon 122015 <br>
+
+Sector-13, Prabhu Vatika ke piche
+Udaipur, Rajasthan 313001
                 </p>
             </div>
         </div>
