@@ -32,10 +32,10 @@ export default function Contact() {
                 <p className="mb-0">
                     <strong>WT Winds Consultancy OPC Pvt. Ltd.</strong><br />
                     Udyog Vihar
-Gurgaon 122015 <br>
+                    Gurgaon 122015 <br />
 
-Sector-13, Prabhu Vatika ke piche
-Udaipur, Rajasthan 313001
+                    Sector-13, Prabhu Vatika ke piche
+                    Udaipur, Rajasthan 313001
                 </p>
             </div>
         </div>
